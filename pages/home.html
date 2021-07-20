@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo head"><img src="../assets/fiteltyLogo.png" style="position: absolute;margin-top: -6px; margin-left: -40px;" height="30px" width="30px" >FITELTY</div>
+        <div class="head"><a href="home.html" style="
+            padding: 5px 20px;
+            margin: 0px -12px;
+            border: 1px solid #fff;
+            border-radius: 20px;
+            cursor:default;
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255); ">PURPOSE</a></div>
+        <div class="head"><a href="about.html">ABOUT</a></div>
+        <div class="head"><a href="grid.html">UI</a></div>
+        <div class="head"><a href="functionality.html">FUNCTIONALITY</a></div>
+        <div class="head"><a href="business.html">BUSINESS PLAN</a></div>
+        <div class="head"><a href="vision.html">VISION</a></div>
+    </div>
+    <div class="title"><img src="../assets/fiteltyLogo.png"><h1>FITELTY</h1></div>
+    
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>01</h2>
+                <h3>Introduction</h3>
+                <p>Fitelty is a service that reads a person's heart rate, blood pressure and oxygen levels from their smart watch and automatically recommends a personalised lifestyle for better health</p>
+                <!-- <a href="#">Read More</a> -->
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>02</h2>
+                <h3>Purpose</h3>
+                <p>It will automatically recommend a diet, sleep schedule and exercise schedule based on factors like the person's heart rate, blood pressure, age, height, weight, etc. </p>
+                <!-- <a href="pages/grid.html">Learn More</a> -->
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>03</h2>
+                <h3>Features</h3>
+                <p>Users will be notified if their blood pressure is too high or low. The nearest hospital will be informed in case of a heart attack or emergency. Users can choose the intensity of their training as well.</p>
+                <!-- <a href="#">Read More</a> -->
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 15,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.6
+	    });
+    </script>
+</body>
+</html>

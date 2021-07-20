@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/functionality.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo head"><img src="../assets/fiteltyLogo.png" style="position: absolute;margin-top: -6px; margin-left: -40px;" height="30px" width="30px" >FITELTY</div>
+        <div class="head"><a href="home.html">PURPOSE</a></div>
+        <div class="head"><a href="about.html">ABOUT</a></div>
+        <div class="head"><a href="grid.html">UI</a></div>
+        <div class="head"><a href="functionality.html" style="
+            padding: 5px 10px;
+            margin: 0px -12px;
+            border: 1px solid #fff;
+            border-radius: 20px;
+            cursor:default;
+            color: #000;
+            background-color: rgb(255, 255, 255); ">FUNCTIONALITY</a></div>
+        <div class="head"><a href="business.html">BUSINESS PLAN</a></div>
+        <div class="head"><a href="vision.html">VISION</a></div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <!-- <h2>01</h2> -->
+                <h3>EXERCISE<i class="fas fa-dumbbell" style="background:-webkit-linear-gradient(rgb(255, 216, 109), rgb(253, 125, 93));-webkit-background-clip: text;background-clip: text;-webkit-text-fill-color: transparent;" aria-hidden="true"></i></h3>
+                <p>Based on the movement patterns of the watch, Fitelty estimates how much exercise the user is doing and comparing that to the person's health condition, it can be determined if the amount of exercise that is being done is adequate. And recommends dynamic schedules and exercise methods as the user progresses in their training.</p>
+                <!-- <a href="#">Read More</a> -->
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h3>DIET<i class="fas fa-apple-alt" style="padding-top: 0.2em;margin-top:-0.2em;background:-webkit-linear-gradient(rgb(109, 255, 121), rgb(184, 253, 93));-webkit-background-clip: text;background-clip: text;-webkit-text-fill-color: transparent;" aria-hidden="true"></i></h3>
+                <p>Using the average blood pressure readings, the health conditions of the user will be determined. It will select meals providing the required nutrients to add to the diet and warn them of food which can be detrimental to the health. It also measures the calorie intake from this diet and relates it with the calories to be burned during exercise. The diet will have diverse meals to ensure the consumption of a variety of nutrients and maintaing the user's interest. The diet will also be based on the user's geographical location to ensure the availability of the particular meals.</p>
+                <!-- <a href="#">Read More</a> -->
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h3>SLEEP<i class="fas fa-moon" style="padding-top: 0.2em;margin-top:-0.2em;background:-webkit-linear-gradient(rgb(197, 109, 255), rgb(253, 93, 253));-webkit-background-clip: text;background-clip: text;-webkit-text-fill-color: transparent;" aria-hidden="true"></i></h3>
+                <p>The watch will use Actigraphy to detect the sleep patterns of the user. It will reccomend a sleep schedule providing adequate hours of sleep while ensuring the timings are optimised for the user's daily routine. It will determine the quality and hours of effective sleep daily and advise the user on methods to get better sleep.</p>
+                <!-- <a href="#">Read More</a> -->
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h3>EMERGENCY<i class="fas fa-briefcase-medical" style="padding-top: 0.2em;margin-top:-0.2em;background:-webkit-linear-gradient(rgb(255, 109, 165), rgb(253, 93, 93));-webkit-background-clip: text;background-clip: text;-webkit-text-fill-color: transparent;" aria-hidden="true"></i></h3>
+                <p>The user will be notified if their blood pressure is getting too hight or low. In case of a sudden increase/decrease of blood pressure, or an abnormality in heart rate, or the user suddenly falling, followed by immobility, the nearby hospital will be informed of an emergency and will be sent the user's location.</p>
+                <!-- <a href="#">Read More</a> -->
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 5,
+            speed: 10,
+            glare: true,
+            "max-glare": 0.3
+	    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/grid.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo head"><img src="../assets/fiteltyLogo.png" style="position: absolute;margin-top: -6px; margin-left: -40px;" height="30px" width="30px" >FITELTY</div>
+        <div class="head"><a href="home.html">PURPOSE</a></div>
+        <div class="head"><a href="about.html">ABOUT</a></div>
+        <div class="head"><a href="grid.html"  style="
+            padding: 5px 10px;
+            margin: 0px -12px;
+            border: 1px solid #fff;
+            border-radius: 20px;
+            cursor:default;
+            color: #000;
+            background-color: rgb(255, 255, 255); ">UI</a></div>
+        <div class="head"><a href="functionality.html">FUNCTIONALITY</a></div>
+        <div class="head"><a href="business.html">BUSINESS PLAN</a></div>
+        <div class="head"><a href="vision.html">VISION</a></div>
+    </div>
+    <div class="parent">
+        <div class="div1 tilt">
+            <div class="div11">
+                <i class="fas fa-heartbeat" aria-hidden="true" style="background:-webkit-linear-gradient(rgb(255, 89, 111), rgb(253, 93, 181));-webkit-background-clip: text;background-clip: text;-webkit-text-fill-color: transparent;padding-top: 0.2em;margin-top: -0.2em;"></i>
+                <p> 87 BPM</p>
+            </div>
+            <div class="div11">
+                <i class="fa fa-tint" aria-hidden="true" style="background:-webkit-linear-gradient(rgb(122, 217, 255), rgb(91, 255, 159));-webkit-background-clip: text;background-clip: text;-webkit-text-fill-color: transparent; padding-left: 15px;padding-top: 0.2em;margin-top: -0.2em;"></i>
+                <p style="padding-left: 15px;">97%</p>
+            </div>
+            <div class="div11">
+                <i class="fas fa-tachometer-alt" aria-hidden="true" style="background:-webkit-linear-gradient(rgb(242, 255, 122), rgb(255, 184, 91));-webkit-background-clip: text;background-clip: text;-webkit-text-fill-color: transparent;padding-top: 0.2em;margin-top: -0.2em;"></i>
+                <p>134/84</p>
+            </div>
+        </div>
+        <div class="div2 tilt tilt2">
+            <p>Your Blood Pressure is <span class="highSpan">HIGH</span></p>
+        </div>
+        <div class="div3 tilt">
+            <div class="parentSleep">
+                <div class="div301"><i class="fas fa-moon" aria-hidden="true"></i></div>
+                <div class="div302">
+                    <!-- <p>10 11 12 13 14 15 16 17</p> -->
+                </div>
+                <div class="div303">
+                    <div class="sleepToday">
+                        <div class="sleepTodayColor"></div>
+                    </div>
+                </div>
+                <div class="div304">
+                    <div class="sleepToday">
+                        <div class="sleepRecommendationColor"></div>
+                    </div>
+                </div>
+                <div class="div306">
+                    <p>6h 20m Today</p>
+                </div>
+                <div class="div305"> 
+                    <p>8h Recommended</p>
+                </div>
+            </div>
+        </div>
+        <div class="div4 tilt">
+            <div class="parentExercise">
+                <div class="div1"><i class="fas fa-dumbbell" aria-hidden="true"></i></div>
+                <div class="div2"> </div>
+                <div class="div3"> </div>
+            </div>
+        </div>
+        <div class="div5 tilt">
+
+            <ul>
+                <li>Avoid Stressful Situations</li>
+                <li>Spend time with family & friends</li>
+                <li>Get yourself checked up regularly. Nearby Hospitals:</li>
+            </ul>
+            <a target="_blank" href="https://www.google.com/maps/search/hospitals+near+me">
+                <div class="map">
+                    <div class="map2">
+                        
+                    </div>
+                    <p>VIEW IN MAPS</p>
+                </div>
+            </a>
+        </div>
+        <div class="div6 tilt">
+            <div class="parentFood">
+                <div class="div2">
+                    <p>Avoid:</p>
+                    <ul>
+                        <li>Sugary Foods/Drinks</li>
+                        <li>Packaged Foods</li>
+                        <li>Smoking</li>
+                        <li>Caffeine</li>
+                        <li>Alcohol</li>
+                    </ul>
+                </div>
+                <div class="div1">
+                    <p>Prefer:</p>
+                    <ul>
+                        <li>Potassium Rich foods</li>
+                        <li>Low-salt Foods</li>
+                        <li>Whole Grains</li>
+                        <li>Vegetables</li>
+                        <li>Fruits</li>
+                    </ul>
+                </div>
+                <div class="div3"><i class="fas fa-apple-alt" aria-hidden="true"></i></div>
+                <div class="div4"></div>
+                <div class="div5"></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".tilt"), {
+            max: 10,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.6
+	    });
+    </script>
+</body>
+</html>
