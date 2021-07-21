@@ -496,3 +496,9 @@ body::after {
   opacity: 1;
   border-radius: 5px;
 }
+
+            /* TOOL TIPS */
+
+.HeartRate:hover::before {
+  content: attr(data-tooltip);
+}

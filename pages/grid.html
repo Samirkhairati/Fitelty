@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/grid.css">
     <link rel="icon" type="image/png" href="../assets/favicon.png"/>
+    <script>
+        window.addEventListener('load', function() {
+            alert("Hover on each icon / graph / image for a second to see what it does.")
+        });
+    </script>
 </head>
 <body>
     <div class="header">
@@ -29,15 +34,15 @@
     <div class="parent">
         <div class="div1 tilt">
             <div class="div11">
-                <i class="fas fa-heartbeat" aria-hidden="true" style="background:-webkit-linear-gradient(rgb(255, 89, 111), rgb(253, 93, 181));-webkit-background-clip: text;background-clip: text;-webkit-text-fill-color: transparent;padding-top: 0.2em;margin-top: -0.2em;"></i>
+                <i title="Heart Rate" class="fas fa-heartbeat" aria-hidden="true" style="cursor: pointer;background:-webkit-linear-gradient(rgb(255, 89, 111), rgb(253, 93, 181));-webkit-background-clip: text;background-clip: text;-webkit-text-fill-color: transparent;padding-top: 0.2em;margin-top: -0.2em;"></i>
                 <p> 87 BPM</p>
             </div>
             <div class="div11">
-                <i class="fa fa-tint" aria-hidden="true" style="background:-webkit-linear-gradient(rgb(122, 217, 255), rgb(91, 255, 159));-webkit-background-clip: text;background-clip: text;-webkit-text-fill-color: transparent; padding-left: 15px;padding-top: 0.2em;margin-top: -0.2em;"></i>
+                <i title="Blood Oxygen" class="fa fa-tint" aria-hidden="true" style="cursor: pointer;background:-webkit-linear-gradient(rgb(122, 217, 255), rgb(91, 255, 159));-webkit-background-clip: text;background-clip: text;-webkit-text-fill-color: transparent; padding-left: 15px;padding-top: 0.2em;margin-top: -0.2em;"></i>
                 <p style="padding-left: 15px;">97%</p>
             </div>
             <div class="div11">
-                <i class="fas fa-tachometer-alt" aria-hidden="true" style="background:-webkit-linear-gradient(rgb(242, 255, 122), rgb(255, 184, 91));-webkit-background-clip: text;background-clip: text;-webkit-text-fill-color: transparent;padding-top: 0.2em;margin-top: -0.2em;"></i>
+                <i title="Blood Pressure" class="fas fa-tachometer-alt" aria-hidden="true" style="cursor: pointer;background:-webkit-linear-gradient(rgb(242, 255, 122), rgb(255, 184, 91));-webkit-background-clip: text;background-clip: text;-webkit-text-fill-color: transparent;padding-top: 0.2em;margin-top: -0.2em;"></i>
                 <p>134/84</p>
             </div>
         </div>
@@ -46,11 +51,11 @@
         </div>
         <div class="div3 tilt">
             <div class="parentSleep">
-                <div class="div301"><i class="fas fa-moon" aria-hidden="true"></i></div>
-                <div class="div302">
+                <div class="div301"><i style="cursor: pointer;" title="Recommended Sleep Schedule" class="fas fa-moon" aria-hidden="true"></i></div>
+                <div class="div302" style="cursor: pointer;" title="The graph of how many hours you slept each day for recent days. Here, 20 means 20th of July.">
                     <!-- <p>10 11 12 13 14 15 16 17</p> -->
                 </div>
-                <div class="div303">
+                <div style="cursor: pointer;" class="div303"  title="How much you slept out of the Recommended 8 hours">
                     <div class="sleepToday">
                         <div class="sleepTodayColor"></div>
                     </div>
@@ -61,18 +66,18 @@
                     </div>
                 </div>
                 <div class="div306">
-                    <p>6h 20m Today</p>
+                    <p style="cursor: pointer;" title="You slept 6 hours and 20 minutes today">6h 20m Today</p>
                 </div>
                 <div class="div305"> 
-                    <p>8h Recommended</p>
+                    <p style="cursor: pointer;" title="You are Recommended to sleep 8 hours a day">8h Recommended</p>
                 </div>
             </div>
         </div>
         <div class="div4 tilt">
             <div class="parentExercise">
-                <div class="div1"><i class="fas fa-dumbbell" aria-hidden="true"></i></div>
-                <div class="div2"> </div>
-                <div class="div3"> </div>
+                <div class="div1"><i class="fas fa-dumbbell" aria-hidden="true"  style="cursor: pointer;" title="Recommended Exercise Schedule "></i></div>
+                <div class="div2" style="cursor: pointer;" title="Calories burned, Distance Walked, Amount of time "> </div>
+                <div class="div3" style="cursor: pointer;" title="A graph of the calories your burned each day for recent days. Here, 20 means 20th of July."> </div>
             </div>
         </div>
         <div class="div5 tilt">
@@ -113,9 +118,9 @@
                         <li>Fruits</li>
                     </ul>
                 </div>
-                <div class="div3"><i class="fas fa-apple-alt" aria-hidden="true"></i></div>
-                <div class="div4"></div>
-                <div class="div5"></div>
+                <div class="div3"><i class="fas fa-apple-alt" aria-hidden="true"  style="cursor: pointer;" title="Recommended Diet"></i></div>
+                <div class="div4" style="cursor: pointer;" title="A chart of how many calories you burned out how many you should"></div>
+                <div class="div5" style="cursor: pointer;" title="A diet that you're advised to follow. The meals would vary based on your health, geographical region and day of Week. Example - Clockwise: Banana, Curry, Spouts, Roti & Salad, Paratha"></div>
             </div>
         </div>
     </div>
